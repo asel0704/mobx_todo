@@ -28,7 +28,7 @@ class TodoItem extends Component {
 						id={todo.id}
 						style={styles.input}
 						underlineShow={false}
-						hintText={text ? undefined : 'What needs to be done?'}
+						hintText={text ? undefined : 'Name'}
 						onChange={this.onTextChange}
 						value={text || ''} />
 					<FlatButton
