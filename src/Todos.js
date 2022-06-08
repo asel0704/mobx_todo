@@ -23,7 +23,7 @@ const Todos = observer(
             <div style={styles.header}>
               <div />
               <Checkbox
-                label="Disable observe"
+                label="Not Done"
                 checked={disabled}
                 onCheck={this.onCheckDisable}
               />
@@ -40,7 +40,7 @@ const Todos = observer(
         <div style={styles.container}>
           <div style={styles.header}>
             <Checkbox
-              label="Hide finished"
+              label="Done tasks"
               checked={query ? true : false}
               onCheck={this.onCheckShowOnlyUnfinished}
             />
