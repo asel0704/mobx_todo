@@ -34,7 +34,7 @@ class TodoItem extends Component {
 					<FlatButton
 						style={styles.icon}
 						icon={<DeleteIcon />}
-						secondary
+						primary
 						onClick={this.onPressDelete} />
 				</div>
 				<Divider />
